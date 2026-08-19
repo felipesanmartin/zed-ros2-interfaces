@@ -1,0 +1,9 @@
+# Save the current 3D map to a file
+
+# Filename (with path and externsion) of the map file
+string file_path
+# File format [0: PLY, 1: PLY_BIN, 2: OBJ]
+uint8 file_format
+---
+bool success   # indicate successful run of service
+string message # informational, e.g. for error messages
